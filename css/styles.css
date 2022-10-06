@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(250, 255, 151, 0.71);
+    font-family: 'Montserrat', sans-serif;
+}
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+h1 {
+    color: rgb(149, 65, 1);
+    font-family: 'Pacifico', cursive;
+    font-size: 56px;
+    line-height: 1.8;
+    letter-spacing: 2px;
+}
+p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.list a {
+    color: brown;
+    text-decoration: none;
+    margin: 15px;
+}
+.list a:hover {
+    color: rgb(91, 1, 1);
+}
+.mail {
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: orangered;
+}
+.list .current {
+    color: black;
+    border-bottom: 2px solid;
+}
